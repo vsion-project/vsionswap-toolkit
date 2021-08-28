@@ -6,6 +6,8 @@ const Icon: React.FC<SvgProps> = (props) => {
   return (
     <Svg viewBox="0 0 90 90" {...props}>
       <circle cx="45" cy="45" r="45" fill="url(#paint0_linear_pancakeround)" />
+      <image width="90" height="90" href={ '/images/vsion/Logo_vsion_token.png' }/>
+{/*       
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -92,7 +94,7 @@ const Icon: React.FC<SvgProps> = (props) => {
         clipRule="evenodd"
         d="M30.3599 21.9496C31.9392 20.9446 33.9929 20.3916 36.1525 20.3916C38.3121 20.3916 40.3658 20.9446 41.9451 21.9496C43.4996 22.9389 44.8499 24.5636 44.8499 26.6899V28.4894C44.8499 30.6156 43.4996 32.2404 41.9451 33.2296C40.3658 34.2347 38.3121 34.7876 36.1525 34.7876C33.9929 34.7876 31.9392 34.2347 30.3599 33.2296C28.8054 32.2404 27.4551 30.6156 27.4551 28.4894V26.6899C27.4551 24.5636 28.8054 22.9389 30.3599 21.9496ZM36.1525 22.491C32.5085 22.491 29.5545 24.3709 29.5545 26.6899V28.4894C29.5545 30.8083 32.5085 32.6882 36.1525 32.6882C39.7965 32.6882 42.7505 30.8083 42.7505 28.4894V26.6899C42.7505 24.3709 39.7965 22.491 36.1525 22.491Z"
         fill="#633001"
-      />
+      /> */}
       <defs>
         <linearGradient id="paint0_linear_pancakeround" x1="45" y1="0" x2="45" y2="90" gradientUnits="userSpaceOnUse">
           <stop stopColor="#54DADE" />
